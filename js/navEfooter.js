@@ -23,9 +23,6 @@ header.innerHTML = `<nav class="navbar navbar-expand-lg">
             <li class="nav-item">
                 <a class="nav-link" href="Padrinho.html">Padrinhos |</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Formulario.html">Cadastro |</a>
-            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="quemsomos" href="QuemSomos.html" id="navbarDropdown"
                     role="button" data-bs-toggle="dropdown" aria-expanded="false">

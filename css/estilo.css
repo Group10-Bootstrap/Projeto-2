@@ -1,5 +1,5 @@
 /* **************************************************************************** */
-/* *********************Style da Página INDEX e QUEM SOMOS********************* */
+/* *********************Style da Página INDEX ********************* */
 * {
     margin: 0;
     padding: 0;
@@ -19,8 +19,10 @@
 footer{
     text-decoration: none;  
 }
+
+/* **************** Cards da página Index *************************** */
 .cardIndex{
-    background-color: blue;
+    background-color: #ffef0e;
     overflow: hidden;
     height: 172px;
 }
@@ -30,26 +32,31 @@ footer{
 }
 
 .card-text{
-    color:white
+    color:#021b4d;
+    font-weight: 500; 
 }
 
-#nossaHist{
-    color: blue;
-}
 
 #btnNav{
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 border: 2px solid blue;
 }
 
-#mainIndex{
-    height:450px;
-}
 #fotoIndex{
     width: 120%;
 }
+/* 
+/************************** Banner inicial da pág Index *****************************/
 #bannerIndex{
-    width: 100%;
+    width: 92%;
+ margin-left: 4%;
+ margin-top: 2%
+}
+#bannerIndex2{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 2%
+
 }
 
 /* ************************************************************************************ */
@@ -69,6 +76,45 @@ border: 2px solid blue;
         border-bottom: none;
     }
     
+/* ********************* quem somos nós *************************** */
+#tituloPadrinhos{
+    color: #021b4d;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.textPad{
+    color: #021b4d;
+    font-weight: 500;
+    font-size: medium;
+    text-align: justify;
+}
 
 /* ************************************************************************************ */
-/* *****************************Style da página FORMULÁRIO******************************/
+/* *****************************Style da página Padrinhos******************************/
+.imgCarrossel{
+height: 22rem;
+width: 350px;
+}
+
+#carouselExampleIndicators{
+width: 350px;
+}
+
+.carroImg{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.carousel-item{
+  display:flex;
+  justify-content: center;  
+}
+
+@media (max-width: 436px){
+    .imgCarrossel{
+        height: 17rem;
+        width: 200px;
+        }
+
+}

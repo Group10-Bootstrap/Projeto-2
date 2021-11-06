@@ -104,6 +104,7 @@ footer{
     #logo{
         position: absolute;
         left: 38%;
+        top: 12px;
     }
     .navbar{
         height: auto;
