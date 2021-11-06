@@ -1,0 +1,74 @@
+/* **************************************************************************** */
+/* *********************Style da Página INDEX e QUEM SOMOS********************* */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#btnLogin {
+    margin-right: 40px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 400%;
+}
+
+#iconsMidias{
+    margin-right: 10px;
+}
+footer{
+    text-decoration: none;  
+}
+.cardIndex{
+    background-color: blue;
+    overflow: hidden;
+    height: 172px;
+}
+.cardIndex:hover{
+    height: 400px;
+    transition: 0.5s;
+}
+
+.card-text{
+    color:white
+}
+
+#nossaHist{
+    color: blue;
+}
+
+#btnNav{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+border: 2px solid blue;
+}
+
+#mainIndex{
+    height:450px;
+}
+#fotoIndex{
+    width: 120%;
+}
+#bannerIndex{
+    width: 100%;
+}
+
+/* ************************************************************************************ */
+/* *****************************Style da página OFICINAS ********************************/
+
+
+.cabecalho{
+    color: #e3f2fd;
+    justify-content: center;
+    }
+    
+    #zoom-container {
+        
+        cursor:pointer;
+        display: flex;
+        height: 2rem;
+        border-bottom: none;
+    }
+    
+
+/* ************************************************************************************ */
+/* *****************************Style da página FORMULÁRIO******************************/
